@@ -15,7 +15,6 @@ public static partial class Starfield
         public static FormLink<IObjectEffectGetter> Ench_Legendary_Armor_CarryWeight_Weapon => Construct(0x65bb);
         public static FormLink<IObjectEffectGetter> BoostpackEnchantment_Balanced => Construct(0x15420);
         public static FormLink<IObjectEffectGetter> OLD_Ench_LegendaryWeapon_Corrosive_ArmorPen => Construct(0x2fe27);
-        public static FormLink<IObjectEffectGetter> Ench_EMShock => Construct(0x38e50);
         public static FormLink<IObjectEffectGetter> Ench_Armor_CarryWeight => Construct(0x50730);
         public static FormLink<IObjectEffectGetter> Ench_Legendary_Armor_Disarm => Construct(0x600f3);
         public static FormLink<IObjectEffectGetter> Ench_Legendary_Armor_Stagger => Construct(0x600f6);
@@ -98,6 +97,13 @@ public static partial class Starfield
         public static FormLink<IObjectEffectGetter> Ench_Legendary_Pack_CarryWeight => Construct(0x2ede54);
         public static FormLink<IObjectEffectGetter> Ench_Legendary_Pack_AssistedCarry => Construct(0x2ede55);
         public static FormLink<IObjectEffectGetter> Ench_Legendary_Pack_ArmorPlated => Construct(0x2ede5a);
+        public static FormLink<IObjectEffectGetter> Ench_LegendaryWeapon_Chilling => Construct(0x2f9711);
+        public static FormLink<IObjectEffectGetter> Ench_LegendaryWeapon_Lawful => Construct(0x2f9712);
+        public static FormLink<IObjectEffectGetter> Ench_LegendaryWeapon_Swashbuckling => Construct(0x2f9713);
+        public static FormLink<IObjectEffectGetter> Ench_Weapon_AlloyedSteel => Construct(0x2fb3b9);
+        public static FormLink<IObjectEffectGetter> Ench_Weapon_Irradiated => Construct(0x2fb3ba);
+        public static FormLink<IObjectEffectGetter> Ench_Weapon_Venomous => Construct(0x2fb3bc);
+        public static FormLink<IObjectEffectGetter> Ench_Weapon_Corroding => Construct(0x2fb3bd);
         public static FormLink<IObjectEffectGetter> Ench_LegendaryWeapon_AntiPersonnel => Construct(0x317797);
         public static FormLink<IObjectEffectGetter> Ench_LegendaryWeapon_Berserker => Construct(0x3178f3);
         public static FormLink<IObjectEffectGetter> Ench_LegendaryWeapon_Poison_AddPerk => Construct(0x319aed);

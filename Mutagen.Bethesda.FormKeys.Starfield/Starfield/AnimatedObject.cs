@@ -56,6 +56,8 @@ public static partial class Starfield
         public static FormLink<IAnimatedObjectGetter> AnimObjectBroom => Construct(0x190d68);
         public static FormLink<IAnimatedObjectGetter> animObjectVideoGrendel => Construct(0x1c0f31);
         public static FormLink<IAnimatedObjectGetter> AnimObjectQuantumCalibrator => Construct(0x1e037c);
+        public static FormLink<IAnimatedObjectGetter> AnimObjectGift_ModelA => Construct(0x20d37d);
+        public static FormLink<IAnimatedObjectGetter> AnimObjectRing_ModelA => Construct(0x20d37e);
         public static FormLink<IAnimatedObjectGetter> AnimObjectLaserScanner01 => Construct(0x2519fd);
         public static FormLink<IAnimatedObjectGetter> AnimObjectPen_Stylus01 => Construct(0x253f88);
         public static FormLink<IAnimatedObjectGetter> AnimObjectWelder => Construct(0x25b9d3);

@@ -534,8 +534,11 @@ public static partial class Starfield
         public static FormLink<ISpellGetter> Env_HitSpell_AFFL_Chance_Injury_Sprain => Construct(0x2ed9f8);
         public static FormLink<ISpellGetter> Env_HitSpell_AFFL_Chance_Injury_TornMuscle => Construct(0x2ed9f9);
         public static FormLink<ISpellGetter> Legendary_Pack_AssistedCarry => Construct(0x2ede58);
+        public static FormLink<ISpellGetter> PEO_abAddPerk_Sustenance => Construct(0x2edffb);
         public static FormLink<ISpellGetter> ArtifactPower_AntiGravityFieldHazard_Spell => Construct(0x2ef5ca);
+        public static FormLink<ISpellGetter> PEO_abAddPerk_SustenanceSneakDmg => Construct(0x2efd6f);
         public static FormLink<ISpellGetter> ShotgunCert_PerkStunSpell => Construct(0x2f413b);
+        public static FormLink<ISpellGetter> LegendaryWeapon_Chilling_Spell => Construct(0x2f9814);
         public static FormLink<ISpellGetter> WeaponReward_Ember_BackfireDmg => Construct(0x2f9a01);
         public static FormLink<ISpellGetter> AbMQ101ModIncomingDamageFromPirates => Construct(0x2fe0c1);
         public static FormLink<ISpellGetter> ENV_AFFL_Symptom_Cough_DmgOxygen => Construct(0x303979);
@@ -548,6 +551,13 @@ public static partial class Starfield
         public static FormLink<ISpellGetter> ENV_AFFL_Symptom_Pain_Reminder => Construct(0x3039ab);
         public static FormLink<ISpellGetter> ENV_AFFL_Symptom_Soreness_Reminder => Construct(0x3039ad);
         public static FormLink<ISpellGetter> ENV_AFFL_Symptom_Unbalanced_Reminder => Construct(0x3039b1);
+        public static FormLink<ISpellGetter> PEO_Sus_Food_Tier_0_Ability => Construct(0x313252);
+        public static FormLink<ISpellGetter> PEO_Sus_Drink_Tier_0_Ability => Construct(0x313259);
+        public static FormLink<ISpellGetter> PEO_Hungry_Reminder => Construct(0x3132a0);
+        public static FormLink<ISpellGetter> PEO_Thirsty_Reminder => Construct(0x3132a1);
+        public static FormLink<ISpellGetter> PEO_Malnourished_Reminder => Construct(0x3132a4);
+        public static FormLink<ISpellGetter> PEO_Dehydrated_Reminder => Construct(0x3132a6);
+        public static FormLink<ISpellGetter> PEO_abSustenanceWatchReminder => Construct(0x3132a9);
         public static FormLink<ISpellGetter> CCT_abLegendaryFortifyHealth_Rank2 => Construct(0x32aa8b);
         public static FormLink<ISpellGetter> CCT_abLegendaryFortifyHealth_Rank3 => Construct(0x32aa8d);
         public static FormLink<ISpellGetter> ModWeapon_Annihilator_Hazard_Spell => Construct(0x336bfc);

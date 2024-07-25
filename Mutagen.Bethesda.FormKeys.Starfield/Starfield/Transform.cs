@@ -103,7 +103,7 @@ public static partial class Starfield
         public static FormLink<ITransformGetter> Inv_DefaultTransform_Z200_DecoWoodBoxes_Scaled85 => Construct(0xe3b8);
         public static FormLink<ITransformGetter> Inv_Guns_Inventory_11 => Construct(0x1390b);
         public static FormLink<ITransformGetter> Inv_Guns_Inventory_12 => Construct(0x13a93);
-        public static FormLink<ITransformGetter> Inv_DefaultTransform_UP_X145_Y185_Z163_DataSlates => Construct(0x162a7);
+        public static FormLink<ITransformGetter> Inv_DefaultTransform_UP_X90_Y160_Z270_DataSlates => Construct(0x162a7);
         public static FormLink<ITransformGetter> Inv_DefaultTransform_Z015_Rings_Scaled40 => Construct(0x18bc7);
         public static FormLink<ITransformGetter> Inv_DefaultTransform_X180_Y135_Z100_OrgStalk => Construct(0x18bc8);
         public static FormLink<ITransformGetter> Inv_DefaultTransform_Z015_BallToy_Grinder01Lid_Scaled65 => Construct(0x18bc9);
@@ -697,6 +697,12 @@ public static partial class Starfield
         public static FormLink<ITransformGetter> Inv_DefaultTransform_X295_Y000_Z100_GardenTrowel => Construct(0x2edec2);
         public static FormLink<ITransformGetter> Inv_DefaultTransform_X130_Y190_Z167__NOCLUTTER_IndustrialWorkbench_Food_Pack_AdvNutrition => Construct(0x2edec3);
         public static FormLink<ITransformGetter> Inv_DefaultTransform_X300_Notes_Notepads => Construct(0x2edec4);
+        public static FormLink<ITransformGetter> Inv_Melee_ResearchBench3D => Construct(0x2efd7b);
+        public static FormLink<ITransformGetter> Inv_Melee_Workbench3D_Small => Construct(0x2efd7e);
+        public static FormLink<ITransformGetter> Inv_Melee_Workbench3D_Medium => Construct(0x2efd7f);
+        public static FormLink<ITransformGetter> Inv_Melee_Workbench3D_Large => Construct(0x2efd80);
+        public static FormLink<ITransformGetter> Inv_Melee_Inventory_01 => Construct(0x2efd81);
+        public static FormLink<ITransformGetter> Inv_Melee_Inventory_02 => Construct(0x2efd82);
         public static FormLink<ITransformGetter> Inv_DefaultTransform_UP_X090_Y180_Z000_Hookah_Scaled90 => Construct(0x2f1450);
         public static FormLink<ITransformGetter> Inv_DefaultTransform_Z015_FreestarBadges_Scaled70 => Construct(0x2f1451);
         public static FormLink<ITransformGetter> Inv_DefaultTransform_Z110_HookahCable => Construct(0x2f1452);

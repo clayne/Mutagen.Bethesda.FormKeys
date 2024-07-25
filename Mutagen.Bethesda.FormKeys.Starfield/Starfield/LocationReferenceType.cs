@@ -1701,6 +1701,9 @@ public static partial class Starfield
         public static FormLink<ILocationReferenceTypeGetter> CF05_Key_DelgadoIntercomFurnitureRefType => Construct(0x20be93);
         public static FormLink<ILocationReferenceTypeGetter> CF05_Key_JasmineSpeakerFinalSceneMarkerRefType => Construct(0x20be94);
         public static FormLink<ILocationReferenceTypeGetter> CF05_Vigilance_KibweMarkerRefType => Construct(0x20be95);
+        public static FormLink<ILocationReferenceTypeGetter> MQ202_Dock_Door3_LocRefType => Construct(0x20c821);
+        public static FormLink<ILocationReferenceTypeGetter> MQ202_Dock_Trigger3_LocRefType => Construct(0x20c822);
+        public static FormLink<ILocationReferenceTypeGetter> RI05_Neon_FrankiesSweepingFurnitureRefType => Construct(0x20d238);
         public static FormLink<ILocationReferenceTypeGetter> SE_AC01_EliteCrewEncounter_BettyShipDepartLocRefType => Construct(0x20dc70);
         public static FormLink<ILocationReferenceTypeGetter> SE_AC01_EliteCrewEncounter_BettyShipTargetLocRefType => Construct(0x20dc73);
         public static FormLink<ILocationReferenceTypeGetter> SkySuiteElevatorDoor_LocRefType => Construct(0x20e0a8);
@@ -2854,11 +2857,14 @@ public static partial class Starfield
         public static FormLink<ILocationReferenceTypeGetter> BQ01_LocRefType_Trigger_Mine_Cave_Comment06_Nest => Construct(0x2eda0b);
         public static FormLink<ILocationReferenceTypeGetter> BQ01_LocRefType_Trigger_Mine_Cave_Comment02_Eggs => Construct(0x2eda0c);
         public static FormLink<ILocationReferenceTypeGetter> BQ01_LocRefType_Trigger_Mine_Cave_Comment05_HelgiStation => Construct(0x2eda0d);
+        public static FormLink<ILocationReferenceTypeGetter> LC088_Vigilance_Huan_MessHallDoorRefType => Construct(0x2eee8e);
+        public static FormLink<ILocationReferenceTypeGetter> LC088_Vigilance_Estelle_QuartersDoorRefType => Construct(0x2eeeb2);
         public static FormLink<ILocationReferenceTypeGetter> BQ01_LocRefType_XMarker_OtherBarrett => Construct(0x2f5502);
         public static FormLink<ILocationReferenceTypeGetter> RI07_NewAtlantis_SideDoorRefType => Construct(0x2fb104);
         public static FormLink<ILocationReferenceTypeGetter> RI07_NewAtlantis_SideDoorTriggerRefType => Construct(0x2fb105);
         public static FormLink<ILocationReferenceTypeGetter> RI07_InfinityLTD_NinaHarperTriggerRefType => Construct(0x2fb108);
         public static FormLink<ILocationReferenceTypeGetter> RI07_InfinityLTD_AelysSpaceTriggerRefType => Construct(0x2fb10c);
+        public static FormLink<ILocationReferenceTypeGetter> UC04_MAST_LodgeDoorTriggers_RefType => Construct(0x2fbd42);
         public static FormLink<ILocationReferenceTypeGetter> UC_GG_Work_MMEmployee_RefType => Construct(0x2fcb53);
         public static FormLink<ILocationReferenceTypeGetter> CY_CommunityChair_LocRef => Construct(0x2ff0ed);
         public static FormLink<ILocationReferenceTypeGetter> UC_GG_Mark_Marker_DoorTerminal_RefType => Construct(0x2ff10f);
@@ -2885,8 +2891,12 @@ public static partial class Starfield
         public static FormLink<ILocationReferenceTypeGetter> MQ104A_AndrejaTriggerRefType => Construct(0x30dd82);
         public static FormLink<ILocationReferenceTypeGetter> MQ104A_AndrejaArtifactMarkerRefType => Construct(0x30dd86);
         public static FormLink<ILocationReferenceTypeGetter> Ship_LandDeck_Ramp_RefType => Construct(0x30efb5);
+        public static FormLink<ILocationReferenceTypeGetter> RI07_NewAtlantis_DavidFurnitureRefType => Construct(0x310abd);
         public static FormLink<ILocationReferenceTypeGetter> FC02_BanditCamp_EnableMarkerLRT => Construct(0x311719);
         public static FormLink<ILocationReferenceTypeGetter> LC051_NeuroampDoor_Reftype => Construct(0x311789);
+        public static FormLink<ILocationReferenceTypeGetter> RI04_NeonCore_EbbsideDoorRefType => Construct(0x3131ff);
+        public static FormLink<ILocationReferenceTypeGetter> RI04_NeonExterior_VentQTPrimitiveRefType => Construct(0x313202);
+        public static FormLink<ILocationReferenceTypeGetter> RI04_NeonExterior_VentExitQTPrimitiveRefType => Construct(0x313207);
         public static FormLink<ILocationReferenceTypeGetter> MQ104A_DR001_ExteriorEnableRefType => Construct(0x317427);
         public static FormLink<ILocationReferenceTypeGetter> MQ102ArtifactRefType => Construct(0x31d722);
         public static FormLink<ILocationReferenceTypeGetter> MQ102MoaraShipBossRefType => Construct(0x31d724);

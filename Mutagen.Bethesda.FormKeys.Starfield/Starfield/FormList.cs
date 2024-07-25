@@ -675,6 +675,10 @@ public static partial class Starfield
         public static FormLink<IFormListGetter> OutpostHarvesterAtmosphere_ChlorineList => Construct(0x20a08c);
         public static FormLink<IFormListGetter> OutpostHarvesterAtmosphere_BenzeneList => Construct(0x20a08d);
         public static FormLink<IFormListGetter> OutpostHarvesterAtmosphere_AlkanesList => Construct(0x20a08e);
+        public static FormLink<IFormListGetter> FormsToRemoveFromGalaxyCell => Construct(0x20d271);
+        public static FormLink<IFormListGetter> PEO_EnvironmentalDamage_AFFL_RandomPeriodicEffects_Cold => Construct(0x20e4a1);
+        public static FormLink<IFormListGetter> PEO_EnvironmentalDamage_AFFL_RandomPeriodicEffects_Heat => Construct(0x20e58d);
+        public static FormLink<IFormListGetter> PEO_EnvironmentalDamage_AFFL_RandomPeriodicEffects_Toxic => Construct(0x20e593);
         public static FormLink<IFormListGetter> VoicesDialogueStarbornShip_Unique => Construct(0x20ec31);
         public static FormLink<IFormListGetter> VoicesDialogueStarborn_Unique => Construct(0x20ec32);
         public static FormLink<IFormListGetter> NewAtlantisVendorVeryHighManufactured => Construct(0x20fe4a);
@@ -1021,6 +1025,14 @@ public static partial class Starfield
         public static FormLink<IFormListGetter> VoicesDialogueCitizenShip_FSC => Construct(0x2eb24a);
         public static FormLink<IFormListGetter> VoicesDialogueCitizenShip_UC => Construct(0x2eb24b);
         public static FormLink<IFormListGetter> VoicesDialogueCitizenShips_Neon => Construct(0x2eb24c);
+        public static FormLink<IFormListGetter> OutpostDecorHistoricalPortraits => Construct(0x2ee004);
+        public static FormLink<IFormListGetter> OutpostDecorLettersList => Construct(0x2ee005);
+        public static FormLink<IFormListGetter> OutpostDecorNumberList => Construct(0x2ee007);
+        public static FormLink<IFormListGetter> HelpManualInstalledContent => Construct(0x2ee096);
+        public static FormLink<IFormListGetter> ShipDecorFurnitureShelvesList01 => Construct(0x2ef038);
+        public static FormLink<IFormListGetter> ShipDecorGymEquipList => Construct(0x2ef03b);
+        public static FormLink<IFormListGetter> ShipDecorGenericCaseList01 => Construct(0x2ef03d);
+        public static FormLink<IFormListGetter> COM_Companion_Cora_BookList => Construct(0x2ef270);
         public static FormLink<IFormListGetter> HeadPartsCorpseRace => Construct(0x2f3ec4);
         public static FormLink<IFormListGetter> OutpostRobotCombatOverride => Construct(0x2f3f2e);
         public static FormLink<IFormListGetter> ENV_imGui_5_1_Magic_Afflictions => Construct(0x2f4438);

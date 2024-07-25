@@ -12,7 +12,7 @@ public static partial class Starfield
         private static FormLink<IAudioOcclusionPrimitiveGetter> Construct(uint id) => new FormLink<IAudioOcclusionPrimitiveGetter>(ModKey.MakeFormKey(id));
         public static FormLink<IAudioOcclusionPrimitiveGetter> AudioOcclusionPrimitive_Occlude_050_Percent_Artifact_Power_Personal_Atmosphere => Construct(0x277ab);
         public static FormLink<IAudioOcclusionPrimitiveGetter> AudioOcclusionPrimitive_NeonWeather => Construct(0x389d8);
-        public static FormLink<IAudioOcclusionPrimitiveGetter> AudioOcclusionPrimitive_Occlude_060_Percent_OutpostHabs => Construct(0x5bc28);
+        public static FormLink<IAudioOcclusionPrimitiveGetter> AudioOcclusionPrimitive_Occlude_000_Percent_OutpostHabs => Construct(0x5bc28);
         public static FormLink<IAudioOcclusionPrimitiveGetter> AudioOcclusionPrimitive_Occlude_010_Percent => Construct(0x9aa2f);
         public static FormLink<IAudioOcclusionPrimitiveGetter> AudioOcclusionPrimitive_Occlude_075_Percent_ShipInteriorA => Construct(0xc7b48);
         public static FormLink<IAudioOcclusionPrimitiveGetter> AudioOcclusionPrimitive_Occlude_100percent_LC116Nishina_01 => Construct(0xcb8ad);

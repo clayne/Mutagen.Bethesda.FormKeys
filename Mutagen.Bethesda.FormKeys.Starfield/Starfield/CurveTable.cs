@@ -32,6 +32,9 @@ public static partial class Starfield
         public static FormLink<ICurveTableGetter> PCM_BlockCreation_CurveDistCluster1000 => Construct(0x236e81);
         public static FormLink<ICurveTableGetter> ENV_AFFL_Chance_Improve_High => Construct(0x28b15c);
         public static FormLink<ICurveTableGetter> CurveCutterDistance => Construct(0x30b899);
+        public static FormLink<ICurveTableGetter> ENV_AFFL_Chance_Worsen_High => Construct(0x313238);
+        public static FormLink<ICurveTableGetter> ENV_AFFL_Chance_Worsen_Low => Construct(0x313239);
+        public static FormLink<ICurveTableGetter> ENV_AFFL_Chance_Worsen_Standard => Construct(0x31323a);
         public static FormLink<ICurveTableGetter> ENV_AFFL_FallDamageAfflictionChance => Construct(0x3e5be1);
         public static FormLink<ICurveTableGetter> PCM_BlockCreation_SM009ClusterCountCurveSmall => Construct(0x3e75b4);
         public static FormLink<ICurveTableGetter> PCM_BlockCreation_SM009ClusterDistCurveSmall => Construct(0x3e75b5);

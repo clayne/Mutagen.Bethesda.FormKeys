@@ -745,6 +745,8 @@ public static partial class Starfield
         public static FormLink<IActivatorGetter> HzTest_Test_Pipe_GasSpray => Construct(0x209d3d);
         public static FormLink<IActivatorGetter> HzTest_Test_Pipe_Switch => Construct(0x209d42);
         public static FormLink<IActivatorGetter> NA_MastCouncilRoom_Shutter02 => Construct(0x20c543);
+        public static FormLink<IActivatorGetter> FFLodge04_ScenePrimitive => Construct(0x20d23d);
+        public static FormLink<IActivatorGetter> JS_Test_DeleteThis => Construct(0x20d270);
         public static FormLink<IActivatorGetter> OutpostCargoLinkMarker_Mission => Construct(0x20d561);
         public static FormLink<IActivatorGetter> NA_MastCouncilRoom_Shutter01 => Construct(0x20e84b);
         public static FormLink<IActivatorGetter> LazarusPlantLargeBlooming01_Destroyed => Construct(0x20fff2);
@@ -1307,6 +1309,7 @@ public static partial class Starfield
         public static FormLink<IActivatorGetter> LC107LegacyShip_ManagerCredTankCluster => Construct(0x2e0c57);
         public static FormLink<IActivatorGetter> LC107LegacyShip_ManagerCredTankVault => Construct(0x2e0c59);
         public static FormLink<IActivatorGetter> LC107_CF_CredTank_Rack_AlwaysOff => Construct(0x2e47a2);
+        public static FormLink<IActivatorGetter> SFBGS006_SBShipDecorationMarker => Construct(0x2ef273);
         public static FormLink<IActivatorGetter> _AnimGraph_Container_Standard01 => Construct(0x2f0646);
         public static FormLink<IActivatorGetter> HopeTechSecurityGateSoundTrigger => Construct(0x2f3eb8);
         public static FormLink<IActivatorGetter> ENV_AFFL_Infection_BoneInfection => Construct(0x2f443c);
@@ -1332,11 +1335,14 @@ public static partial class Starfield
         public static FormLink<IActivatorGetter> ENV_AFFL_Injury_RadiationPoisoning => Construct(0x2f4453);
         public static FormLink<IActivatorGetter> ENV_AFFL_Injury_Sprain => Construct(0x2f4454);
         public static FormLink<IActivatorGetter> ENV_AFFL_Injury_TornMuscle => Construct(0x2f4455);
+        public static FormLink<IActivatorGetter> UC04_LodgeBlockingTrigger => Construct(0x2fbd43);
         public static FormLink<IActivatorGetter> Custom_CableAnim01 => Construct(0x2fed1e);
         public static FormLink<IActivatorGetter> _AnimGraph_Standard_Idle_Loop_RotateY => Construct(0x304c45);
         public static FormLink<IActivatorGetter> COM_MQ102_TxtReplace_QuestName_SarahMorgan => Construct(0x305f6d);
         public static FormLink<IActivatorGetter> FFCydoniaZ08_InvisibleActivator => Construct(0x30b893);
         public static FormLink<IActivatorGetter> Water16mCalmMossClumpy => Construct(0x30ed40);
+        public static FormLink<IActivatorGetter> RI04_VentQTPrimitive => Construct(0x313200);
+        public static FormLink<IActivatorGetter> RI04_VentExitQTPrimitive => Construct(0x313204);
         public static FormLink<IActivatorGetter> MissionMarkerSupplyNeed109 => Construct(0x31b4a6);
         public static FormLink<IActivatorGetter> NH_Display_NASA => Construct(0x328c57);
         public static FormLink<IActivatorGetter> LC107_LightPanel01 => Construct(0x329935);

@@ -105,6 +105,15 @@ class Program
         }
     }
 
+    private static string KnownEdidSwaps(string str)
+    {
+        return str switch
+        {
+            "new" => "New",
+            _ => str
+        };
+    }
+
     public static void Generate(GenerateFromMod gen)
     {
         ExportStringToFile exportStringToFile = new();
@@ -112,7 +121,8 @@ class Program
         var list = new List<RecordItem>();
         foreach (var rec in mod.EnumerateMajorRecords())
         {
-            if (rec.EditorID is not {} edid) continue;
+            if (rec.EditorID is not {} edid || edid.IsNullOrWhitespace()) continue;
+            edid = KnownEdidSwaps(edid);
             var formKey = rec.FormKey;
             // Only register FormKeys originating from the mod itself
             if (formKey.ModKey != mod.ModKey) continue;
@@ -125,6 +135,7 @@ class Program
         var namespaceStr = $"Mutagen.Bethesda.FormKeys.{gen.Release}";
         var importStr = $"Mutagen.Bethesda.{gen.Release.ToCategory()}";
         var modName = mod.ModKey.Name.TrimStart("DLC");
+        modName = modName.Replace("-", "_");
         if (char.IsLower(modName[0]))
         {
             modName = char.ToUpper(modName[0]) + modName[1..];

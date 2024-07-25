@@ -37,6 +37,11 @@ public static partial class Starfield
         public static FormLink<ILegendaryItemGetter> LegendaryArmorHelmet_AnyNPCFaction => Construct(0x1bf94b);
         public static FormLink<ILegendaryItemGetter> LegendaryArmorHelmet_ByNPCFaction => Construct(0x1bf94c);
         public static FormLink<ILegendaryItemGetter> LegendaryArmorHelmet_SpaceTrucker_Generic => Construct(0x1c0a15);
+        public static FormLink<ILegendaryItemGetter> LegendaryArmorBackpackCommon_Landmark => Construct(0x20d250);
+        public static FormLink<ILegendaryItemGetter> LegendaryArmorBodyCommon_Landmark => Construct(0x20d251);
+        public static FormLink<ILegendaryItemGetter> LegendaryArmorHelmetCommon_Landmark => Construct(0x20d252);
+        public static FormLink<ILegendaryItemGetter> LegendaryArmorHelmet_PeaceReward => Construct(0x20d258);
+        public static FormLink<ILegendaryItemGetter> LegendaryArmorBackpack_PeaceReward => Construct(0x20d259);
         public static FormLink<ILegendaryItemGetter> LegendaryRiflesShotguns_Common => Construct(0x21970e);
         public static FormLink<ILegendaryItemGetter> LegendaryHeavyWeapons_Common => Construct(0x21970f);
         public static FormLink<ILegendaryItemGetter> LegendaryRiflesShotguns_Rare => Construct(0x219744);

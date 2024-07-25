@@ -17,10 +17,12 @@ public static partial class Starfield
         public static FormLink<IBendableSplineGetter> SplineWireRed01 => Construct(0x35a21);
         public static FormLink<IBendableSplineGetter> SplineCableMetalCopper01 => Construct(0x37213);
         public static FormLink<IBendableSplineGetter> SplineWireBlackTower01 => Construct(0x7cdac);
-        public static FormLink<IBendableSplineGetter> SplineWorkshopOutputLink => Construct(0x178b1b);
-        public static FormLink<IBendableSplineGetter> SplineWorkshopPowerLink => Construct(0x1d1d6a);
+        public static FormLink<IBendableSplineGetter> SplineWorkshopTransferLink01Invalid => Construct(0x178b1b);
+        public static FormLink<IBendableSplineGetter> SplineWorkshopPowerLink01Invalid => Construct(0x1d1d6a);
         public static FormLink<IBendableSplineGetter> SplineWireBlack01_Wind => Construct(0x240c24);
         public static FormLink<IBendableSplineGetter> SplineWireBlack02_Wind => Construct(0x240c25);
         public static FormLink<IBendableSplineGetter> SplineCableMetalAluminum01 => Construct(0x244402);
+        public static FormLink<IBendableSplineGetter> SplineWorkshopTransferLink02Valid => Construct(0x3162c5);
+        public static FormLink<IBendableSplineGetter> SplineWorkshopPowerLink02Valid => Construct(0x3162c7);
     }
 }
