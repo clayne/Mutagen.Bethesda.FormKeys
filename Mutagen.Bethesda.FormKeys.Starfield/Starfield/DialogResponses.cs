@@ -5598,6 +5598,7 @@ public static partial class Starfield
         public static FormLink<IDialogResponsesGetter> CannotPay_Izna => Construct(0x33a8d8);
         public static FormLink<IDialogResponsesGetter> _0100_Denis_Hello => Construct(0x1e7132);
         public static FormLink<IDialogResponsesGetter> DialogueShipServices_Shared01 => Construct(0x14a854);
+        public static FormLink<IDialogResponsesGetter> DialogueShipServices_Shared02 => Construct(0x14a860);
         public static FormLink<IDialogResponsesGetter> ShipServices_MQ204AttackHellos => Construct(0x63764);
         public static FormLink<IDialogResponsesGetter> ShipServices_Hellos => Construct(0x14a83f);
         public static FormLink<IDialogResponsesGetter> ShipServices_StarbornHellos => Construct(0x35544d);
@@ -7143,6 +7144,7 @@ public static partial class Starfield
         public static FormLink<IDialogResponsesGetter> HELLO_VeronicaYoung => Construct(0x275370);
         public static FormLink<IDialogResponsesGetter> HELLO_TaiyoFCSecurity => Construct(0x27a4af);
         public static FormLink<IDialogResponsesGetter> HELLO_TaiyoCustomers => Construct(0x27a4b5);
+        public static FormLink<IDialogResponsesGetter> Staryard_Taiyo_DialogueSharedInfo01 => Construct(0x3303b8);
         public static FormLink<IDialogResponsesGetter> GOODBYE_SandraFullerton => Construct(0x208ed1);
         public static FormLink<IDialogResponsesGetter> GOODBYE_NikauHenderson => Construct(0x208ed5);
         public static FormLink<IDialogResponsesGetter> WAITING_SandraFullerton => Construct(0x208ec8);
@@ -7933,6 +7935,7 @@ public static partial class Starfield
         public static FormLink<IDialogResponsesGetter> DialogueRedMile_GenericSecurityHellos => Construct(0x2b2bfc);
         public static FormLink<IDialogResponsesGetter> DialogueRedMile_GenericStaffHellos => Construct(0x2b2c02);
         public static FormLink<IDialogResponsesGetter> DialogueRedMile_GenericPatronHellos => Construct(0x2b2c08);
+        public static FormLink<IDialogResponsesGetter> DialogueRedMileSharedInfo01 => Construct(0x2b2c11);
         public static FormLink<IDialogResponsesGetter> BE_SC04_CaptainHellos => Construct(0x2b567e);
         public static FormLink<IDialogResponsesGetter> RL082_InjuredGuardCompletedHellos => Construct(0x202751);
         public static FormLink<IDialogResponsesGetter> RL082_InjuredGuardHellos => Construct(0x20640a);

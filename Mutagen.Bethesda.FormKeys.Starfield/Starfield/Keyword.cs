@@ -5231,6 +5231,7 @@ public static partial class Starfield
         public static FormLink<IKeywordGetter> RockLayeredX_Wet => Construct(0x2f05d1);
         public static FormLink<IKeywordGetter> AnimFlavorSurrender => Construct(0x2f0928);
         public static FormLink<IKeywordGetter> AnimFlavorHandCuffed => Construct(0x2f093b);
+        public static FormLink<IKeywordGetter> DisplayObjectTypePlushie => Construct(0x2f0ad3);
         public static FormLink<IKeywordGetter> AnimArchetypeRecline => Construct(0x2f1456);
         public static FormLink<IKeywordGetter> AnimFlavorRecline => Construct(0x2f1457);
         public static FormLink<IKeywordGetter> Cabinet_Akila_01_Keyword => Construct(0x2f1c33);

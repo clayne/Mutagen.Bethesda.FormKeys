@@ -1311,6 +1311,7 @@ public static partial class Starfield
         public static FormLink<IActivatorGetter> LC107_CF_CredTank_Rack_AlwaysOff => Construct(0x2e47a2);
         public static FormLink<IActivatorGetter> SFBGS006_SBShipDecorationMarker => Construct(0x2ef273);
         public static FormLink<IActivatorGetter> _AnimGraph_Container_Standard01 => Construct(0x2f0646);
+        public static FormLink<IActivatorGetter> TheLodge_NGplus_Mute_SoundTrigger => Construct(0x2f0a4c);
         public static FormLink<IActivatorGetter> HopeTechSecurityGateSoundTrigger => Construct(0x2f3eb8);
         public static FormLink<IActivatorGetter> ENV_AFFL_Infection_BoneInfection => Construct(0x2f443c);
         public static FormLink<IActivatorGetter> ENV_AFFL_Infection_BrainInfection => Construct(0x2f443f);

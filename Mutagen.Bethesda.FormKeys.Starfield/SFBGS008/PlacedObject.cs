@@ -21,6 +21,8 @@ public static partial class SFBGS008
         public static FormLink<IPlacedObjectGetter> CityMapMarker_KeysHouse => Construct(0x68);
         public static FormLink<IPlacedObjectGetter> MedBay_TravelMarker => Construct(0x6b);
         public static FormLink<IPlacedObjectGetter> CityMapMarker_MedBay => Construct(0x6a);
+        public static FormLink<IPlacedObjectGetter> WellApartment_TravelMarker => Construct(0x7b);
+        public static FormLink<IPlacedObjectGetter> CityMapMarker_WellApartment => Construct(0x7c);
         public static FormLink<IPlacedObjectGetter> CityMapMarkers_UCExchangeCydonia => Construct(0x2d);
         public static FormLink<IPlacedObjectGetter> CityMapMarkers_ReliantMedicalCydonia => Construct(0x2c);
         public static FormLink<IPlacedObjectGetter> CityMapMarkers_BrokenSpear => Construct(0x29);
@@ -66,7 +68,7 @@ public static partial class SFBGS008
         public static FormLink<IPlacedObjectGetter> CityMapMarker_PlayerHouse => Construct(0x15);
         public static FormLink<IPlacedObjectGetter> CityMapMarker_JemisonMercantile => Construct(0x4);
         public static FormLink<IPlacedObjectGetter> CityMapMarker_TheWell02 => Construct(0x17);
-        public static FormLink<IPlacedObjectGetter> CityMapMarker_TerraBrewCoffee01 => Construct(0x6);
+        public static FormLink<IPlacedObjectGetter> CityMapMarker_TerraBrew01 => Construct(0x6);
         public static FormLink<IPlacedObjectGetter> CityMapMarker_Outland => Construct(0x11);
         public static FormLink<IPlacedObjectGetter> CityMapMarker_TSS => Construct(0x2);
         public static FormLink<IPlacedObjectGetter> CityMapMarker_TSM => Construct(0xc);
@@ -80,6 +82,22 @@ public static partial class SFBGS008
         public static FormLink<IPlacedObjectGetter> CityMapMarker_Enhance => Construct(0x63);
         public static FormLink<IPlacedObjectGetter> TheWell02_TravelMarker => Construct(0x71);
         public static FormLink<IPlacedObjectGetter> TheWell01_TravelMarker => Construct(0x72);
+        public static FormLink<IPlacedObjectGetter> ReliantMedical_TravelMarker => Construct(0x87);
+        public static FormLink<IPlacedObjectGetter> TerraBrew01_TravelMarker => Construct(0x83);
+        public static FormLink<IPlacedObjectGetter> Whetstone_TravelMarker => Construct(0x7e);
+        public static FormLink<IPlacedObjectGetter> DawnsRoost_TravelMarker => Construct(0x8b);
+        public static FormLink<IPlacedObjectGetter> TSR_TravelMarker => Construct(0x86);
+        public static FormLink<IPlacedObjectGetter> JemisonMercantile_TravelMarker => Construct(0x82);
+        public static FormLink<IPlacedObjectGetter> UCDistributionCenter_TravelMarker => Construct(0x7d);
+        public static FormLink<IPlacedObjectGetter> CJs_TravelMarker => Construct(0x8a);
+        public static FormLink<IPlacedObjectGetter> TSM_TravelMarker => Construct(0x85);
+        public static FormLink<IPlacedObjectGetter> AphelionRealty_TravelMarker => Construct(0x81);
+        public static FormLink<IPlacedObjectGetter> CentaurianArsenal_TravelMarker => Construct(0x89);
+        public static FormLink<IPlacedObjectGetter> TheViewport_TravelMarker => Construct(0x84);
+        public static FormLink<IPlacedObjectGetter> TSC_TravelMarker => Construct(0x80);
+        public static FormLink<IPlacedObjectGetter> TSS_TravelMarker => Construct(0x8c);
+        public static FormLink<IPlacedObjectGetter> Terrabrew02_TravelMarker => Construct(0x7f);
+        public static FormLink<IPlacedObjectGetter> Chunks_TravelMarker => Construct(0x88);
         public static FormLink<IPlacedObjectGetter> CityMapMarkers_ChunksNeonOrigin => Construct(0x41);
         public static FormLink<IPlacedObjectGetter> CityMapMarkers_FrankiesGrabGo => Construct(0x40);
         public static FormLink<IPlacedObjectGetter> CityMapMarkers_PlayerCrateHousing => Construct(0x3f);
@@ -87,6 +105,10 @@ public static partial class SFBGS008
         public static FormLink<IPlacedObjectGetter> SleepCrates_TravelMarker => Construct(0x57);
         public static FormLink<IPlacedObjectGetter> DeluxeSleepCrate_TravelMarker => Construct(0x56);
         public static FormLink<IPlacedObjectGetter> ChunksNeon_TravelMarker => Construct(0x62);
+        public static FormLink<IPlacedObjectGetter> CityMapMarkers_EuphorikaNeonOrigin => Construct(0x77);
+        public static FormLink<IPlacedObjectGetter> EuphorikaNeon_TravelMarker => Construct(0x79);
+        public static FormLink<IPlacedObjectGetter> CityMapMarkers_MadamSauvage => Construct(0x78);
+        public static FormLink<IPlacedObjectGetter> MadamSauvage_TravelMarker => Construct(0x7a);
         public static FormLink<IPlacedObjectGetter> CityMapMarkers_TraderAuthorityAkila => Construct(0x25);
         public static FormLink<IPlacedObjectGetter> CityMapMarkers_MidtownMinerals => Construct(0x24);
         public static FormLink<IPlacedObjectGetter> CityMapMarkers_StonerootInn => Construct(0x26);
@@ -108,5 +130,11 @@ public static partial class SFBGS008
         public static FormLink<IPlacedObjectGetter> RowlandArms_TravelMarker => Construct(0x51);
         public static FormLink<IPlacedObjectGetter> MidtownHome_TravelMarker => Construct(0x53);
         public static FormLink<IPlacedObjectGetter> MidtownMinerals_TravelMarker => Construct(0x52);
+        public static FormLink<IPlacedObjectGetter> TerraBrewAkila_TravelMarker => Construct(0x91);
+        public static FormLink<IPlacedObjectGetter> TraderAuthorityAkila_TravelMarker => Construct(0x90);
+        public static FormLink<IPlacedObjectGetter> TheRock_TravelMarker => Construct(0x92);
+        public static FormLink<IPlacedObjectGetter> EnhanceAkilla_TravelMarker => Construct(0x8d);
+        public static FormLink<IPlacedObjectGetter> LaredoFirearms_TravelMarker => Construct(0x8f);
+        public static FormLink<IPlacedObjectGetter> StonerootInn_TravelMarker => Construct(0x8e);
     }
 }

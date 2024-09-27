@@ -457,6 +457,7 @@ public static partial class Starfield
         public static FormLink<IWWiseEventDataGetter> AMB_Cydonia_Fracking_Explosion_FirstEncounter => Construct(0x2d5f58);
         public static FormLink<IWWiseEventDataGetter> OE_EarthquakeSound => Construct(0x2da220);
         public static FormLink<IWWiseEventDataGetter> OBJ_Powercell_Power_Up_WEF => Construct(0x2e22d5);
+        public static FormLink<IWWiseEventDataGetter> WWiseEvent_TheLodge_MainFloor_Large_MuteNGplusFX_Play => Construct(0x2f0aac);
         public static FormLink<IWWiseEventDataGetter> WwiseEvent_State_Switches_PowerOn => Construct(0x2f25a9);
         public static FormLink<IWWiseEventDataGetter> WwiseEvent_State_Switches_PowerOff => Construct(0x2f25aa);
         public static FormLink<IWWiseEventDataGetter> WwiseEvent_AMB_Int_HopeTech_SecurityGate => Construct(0x2f3eb9);

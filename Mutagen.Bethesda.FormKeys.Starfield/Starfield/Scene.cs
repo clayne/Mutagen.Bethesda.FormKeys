@@ -4736,6 +4736,7 @@ public static partial class Starfield
         public static FormLink<ISceneGetter> DialogueShipServices_TL_Refuel => Construct(0x22e142);
         public static FormLink<ISceneGetter> DialogueShipServices_TL_Sale => Construct(0x22e143);
         public static FormLink<ISceneGetter> DialogueShipServices_TL_Repairs => Construct(0x22e144);
+        public static FormLink<ISceneGetter> DialogueShipServices_TL_Vehicle => Construct(0x2f0fe3);
         public static FormLink<ISceneGetter> LC044_Guard_LightsScene => Construct(0x3c1731);
         public static FormLink<ISceneGetter> COM_Cora_SG08b_CorasBlessing => Construct(0xc8883);
         public static FormLink<ISceneGetter> COM_Cora_TL_GrowUp => Construct(0x2319b3);
@@ -6136,6 +6137,7 @@ public static partial class Starfield
         public static FormLink<ISceneGetter> SY_Taiyo_Veronica_Top_Buying => Construct(0x275360);
         public static FormLink<ISceneGetter> SY_Taiyo_Veronica_200_Meeting => Construct(0x275361);
         public static FormLink<ISceneGetter> SY_Taiyo_100_Intro => Construct(0x275364);
+        public static FormLink<ISceneGetter> SY_Taiyo_Veronica_Top_Vehicle => Construct(0x2f1007);
         public static FormLink<ISceneGetter> SY_Taiyo_Veronica_Top_Mod => Construct(0x3303c0);
         public static FormLink<ISceneGetter> SY_Deimos_Nikau_Top_Combat => Construct(0x10eae0);
         public static FormLink<ISceneGetter> SY_Deimos_Sofia_400_Meeting => Construct(0x27102b);
@@ -6737,6 +6739,7 @@ public static partial class Starfield
         public static FormLink<ISceneGetter> DialogueHT_Birgit_Top_WorkingConditions => Construct(0x2a80c6);
         public static FormLink<ISceneGetter> DialogueHT_Birgit_Greeting => Construct(0x2a80c8);
         public static FormLink<ISceneGetter> DialogueHT_100_IntroScene => Construct(0x2a80d1);
+        public static FormLink<ISceneGetter> DialogueHT_Inaya_Top_Vehicle => Construct(0x2f0ff6);
         public static FormLink<ISceneGetter> Scene_RC_Birgit_01 => Construct(0x2a80cb);
         public static FormLink<ISceneGetter> Scene_RC_Sal_01 => Construct(0x2a80c4);
         public static FormLink<ISceneGetter> Scene_RC_FastHoang => Construct(0x2a80c2);
@@ -6943,6 +6946,7 @@ public static partial class Starfield
         public static FormLink<ISceneGetter> DialogueRedMile_Mei_TL_FFRedMileR01_FirstTime => Construct(0x2e0ebb);
         public static FormLink<ISceneGetter> DialogueRedMile_Donovan_TL_Record01 => Construct(0x2e899a);
         public static FormLink<ISceneGetter> DialogueRedMile_Donovan_TL_Record02 => Construct(0x2e899b);
+        public static FormLink<ISceneGetter> DialogueRedMile_Lon_TL_Vehicle => Construct(0x2f1006);
         public static FormLink<ISceneGetter> BE_SC04_BargainFails => Construct(0x2b565f);
         public static FormLink<ISceneGetter> BE_SC04_BargainSucceeds => Construct(0x2b5660);
         public static FormLink<ISceneGetter> BE_SC04_BargainingSceneIntro => Construct(0x2b5663);

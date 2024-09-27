@@ -235,6 +235,16 @@ public static partial class Starfield
         public static FormLink<IMaterialTypeGetter> MaterialMatStairs => Construct(0x2c4442);
         public static FormLink<IMaterialTypeGetter> MaterialPHYMetalStepladder => Construct(0x2ccf9b);
         public static FormLink<IMaterialTypeGetter> Material_Dirt_NoTunnel => Construct(0x2f063b);
+        public static FormLink<IMaterialTypeGetter> MaterialDirtlSand_Gray => Construct(0x2f09e5);
+        public static FormLink<IMaterialTypeGetter> MaterialDirtlSand_Red => Construct(0x2f0a47);
+        public static FormLink<IMaterialTypeGetter> MaterialDirtlSand_Green => Construct(0x2f0a48);
+        public static FormLink<IMaterialTypeGetter> MaterialDirtlSand_Purple => Construct(0x2f0a49);
+        public static FormLink<IMaterialTypeGetter> MaterialDirtlSand_Black => Construct(0x2f0a4a);
+        public static FormLink<IMaterialTypeGetter> MaterialDirtlSand_Blue => Construct(0x2f0a4b);
+        public static FormLink<IMaterialTypeGetter> Material_Dirt_Red => Construct(0x2f0b5e);
+        public static FormLink<IMaterialTypeGetter> Material_Dirt_Gray => Construct(0x2f0b75);
+        public static FormLink<IMaterialTypeGetter> MaterialDirtGravel_Red => Construct(0x2f0fdb);
+        public static FormLink<IMaterialTypeGetter> MaterialDirtGravel_Gray => Construct(0x2f0fdc);
         public static FormLink<IMaterialTypeGetter> MaterialStoneRough => Construct(0x2f4137);
         public static FormLink<IMaterialTypeGetter> MaterialShipStarStation => Construct(0x2f6aef);
         public static FormLink<IMaterialTypeGetter> MaterialAsteroidALarge => Construct(0x2f6af0);

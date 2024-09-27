@@ -1880,6 +1880,7 @@ public static partial class Starfield
         public static FormLink<IQuestGetter> COM_Companion_Shared_Barrett => Construct(0x2efd8b);
         public static FormLink<IQuestGetter> COM_Companion_Shared_Sarah => Construct(0x2efd8c);
         public static FormLink<IQuestGetter> Patch_Update05 => Construct(0x2f0912);
+        public static FormLink<IQuestGetter> Patch_Update06 => Construct(0x2f0fe9);
         public static FormLink<IQuestGetter> DialogueCFTheKey_CF04_Convo01 => Construct(0x2f316f);
         public static FormLink<IQuestGetter> CF08_SpeechChallenge_Kibwe => Construct(0x2feb9d);
         public static FormLink<IQuestGetter> City_NA_Viewport03_PostQuest => Construct(0x2ff29e);

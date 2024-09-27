@@ -1089,6 +1089,7 @@ public static partial class Starfield
         public static FormLink<IIdleAnimationGetter> Human_Root_ChangeAnimFlavor_TechReader2handsBulky => Construct(0x2f0463);
         public static FormLink<IIdleAnimationGetter> Human_Root_ChangeAnimFlavor_Surrender => Construct(0x2f0925);
         public static FormLink<IIdleAnimationGetter> Human_Root_ChangeAnimFlavor_HandCuffed => Construct(0x2f0974);
+        public static FormLink<IIdleAnimationGetter> Player_MT_InitializeInstant => Construct(0x2f1010);
         public static FormLink<IIdleAnimationGetter> Furniture_RearQuickExitToStand => Construct(0x2f1455);
         public static FormLink<IIdleAnimationGetter> Human_Root_FlinchBlocking => Construct(0x2f3efc);
         public static FormLink<IIdleAnimationGetter> MQ101_039b_ArtifactsTogetherScene02_009DF9A9_Matteo_Reaction => Construct(0x303932);

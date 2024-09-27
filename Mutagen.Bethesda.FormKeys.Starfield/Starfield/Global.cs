@@ -1498,6 +1498,7 @@ public static partial class Starfield
         public static FormLink<IGlobalGetter> UC04_JakobSandboxing_PostUC03 => Construct(0x20b7dc);
         public static FormLink<IGlobalGetter> Update1Point9 => Construct(0x20c81e);
         public static FormLink<IGlobalGetter> StarfieldUpdate3 => Construct(0x20d228);
+        public static FormLink<IGlobalGetter> _UpdateSFBGS004 => Construct(0x20d240);
         public static FormLink<IGlobalGetter> _UpdateSFBGS003 => Construct(0x20d246);
         public static FormLink<IGlobalGetter> PEO_SleepHealing_GV => Construct(0x20d395);
         public static FormLink<IGlobalGetter> ENV_AFFL_Symp_Crippled_UseOxygenMag_Run => Construct(0x20e2e0);
@@ -2406,6 +2407,7 @@ public static partial class Starfield
         public static FormLink<IGlobalGetter> PEO_Sus_Mag_Tier_1_ConsumePotion => Construct(0x2efd77);
         public static FormLink<IGlobalGetter> PEO_Sus_Mag_Tier_2_ConsumePotion => Construct(0x2efd78);
         public static FormLink<IGlobalGetter> PEO_Sus_Mag_Tier_3_ConsumePotion => Construct(0x2efd79);
+        public static FormLink<IGlobalGetter> PEO_Sus_Consume_Dur_ALL => Construct(0x2f0ad4);
         public static FormLink<IGlobalGetter> LL_ChanceNone_Contraband => Construct(0x2f29ed);
         public static FormLink<IGlobalGetter> SQ_Group_RandomOccupationIndexOverride => Construct(0x2f37dc);
         public static FormLink<IGlobalGetter> ENV_AFFL_Aid_Dur_Treatment_OBSOLETE => Construct(0x2f4437);

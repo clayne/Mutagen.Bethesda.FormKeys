@@ -34,5 +34,6 @@ public static partial class SFBGS003
         public static FormLink<IQuestGetter> SFBGS003_Bounty_SpeechChallenge => Construct(0xb919);
         public static FormLink<IQuestGetter> SFBGS003_TAHQ_Convo_TankInevitable01 => Construct(0xf57e);
         public static FormLink<IQuestGetter> Patch_Update05_Hotfix01 => Construct(0xffd9);
+        public static FormLink<IQuestGetter> SQ_SFBGS003_Patch => Construct(0xffdb);
     }
 }

@@ -1,6 +1,10 @@
 using CommandLine;
 using Loqui;
+using Mutagen.Bethesda.Environments;
 using Mutagen.Bethesda.Plugins;
+using Mutagen.Bethesda.Plugins.Binary.Headers;
+using Mutagen.Bethesda.Plugins.Binary.Parameters;
+using Mutagen.Bethesda.Plugins.Meta;
 using Mutagen.Bethesda.Plugins.Records;
 using Noggog;
 using Noggog.IO;
@@ -117,7 +121,28 @@ class Program
     public static void Generate(GenerateFromMod gen)
     {
         ExportStringToFile exportStringToFile = new();
-        var mod = ModInstantiator.Importer(gen.Path, gen.Release);
+        
+        // ToDo
+        // Eventually use generic read builder
+        var modPath = new ModPath(gen.Path);
+        using var env = GameEnvironment.Typical.Construct(gen.Release);
+        Cache<IModMasterStyledGetter, ModKey>? masterFlagsLookup = null;
+        if (GameConstants.Get(gen.Release).SeparateMasterLoadOrders)
+        {
+            var header = ModHeaderFrame.FromPath(gen.Path, gen.Release);
+            masterFlagsLookup = new Cache<IModMasterStyledGetter, ModKey>(x => x.ModKey);
+            foreach (var master in header.Masters(gen.Path).Select(x => x.Master))
+            {
+                var otherPath = Path.Combine(env.DataFolderPath, master.FileName);
+                var otherHeader = ModHeaderFrame.FromPath(otherPath, gen.Release);
+                masterFlagsLookup.Add(new KeyedMasterStyle(master, otherHeader.MasterStyle));
+            }
+        }
+        
+        var mod = ModInstantiator.ImportGetter(gen.Path, gen.Release, new BinaryReadParameters()
+        {
+            MasterFlagsLookup = masterFlagsLookup
+        });
         var list = new List<RecordItem>();
         foreach (var rec in mod.EnumerateMajorRecords())
         {

@@ -14,12 +14,12 @@ public static partial class SFBGS003
         public static FormLink<IArmorGetter> SFBGS003_AgentNo1_SpaceSuit_Diver_Helmet_01_NOTPLAYABLE => Construct(0x66b0);
         public static FormLink<IArmorGetter> SFBGS003_Spacesuit_ETES_Helmet => Construct(0x676d);
         public static FormLink<IArmorGetter> SFBGS003_Spacesuit_ETES => Construct(0x676e);
-        public static FormLink<IArmorGetter> SFBGS003_Spacesuit_Explorer_Celia => Construct(0x6b99);
-        public static FormLink<IArmorGetter> SFBGS003_Spacesuit_Explorer_Backpack_Celia => Construct(0x6b9a);
-        public static FormLink<IArmorGetter> SFBGS003_SpaceSuit_BountyHunter_Helmet_Celia => Construct(0x6b9b);
-        public static FormLink<IArmorGetter> SFBGS003_Spacesuit_Navigator_Backpack_Booker => Construct(0x6bc5);
-        public static FormLink<IArmorGetter> SFBGS003_Spacesuit_Navigator_SpaceSuit_Booker => Construct(0x6bc6);
-        public static FormLink<IArmorGetter> SFBGS003_Spacesuit_Ranger_Helmet_Booker => Construct(0x6bc7);
+        public static FormLink<IArmorGetter> SFBGS003_Spacesuit_Explorer_Bold => Construct(0x6b99);
+        public static FormLink<IArmorGetter> SFBGS003_Spacesuit_Explorer_Backpack_Bold => Construct(0x6b9a);
+        public static FormLink<IArmorGetter> SFBGS003_SpaceSuit_BountyHunter_Helmet_Bold => Construct(0x6b9b);
+        public static FormLink<IArmorGetter> SFBGS003_Spacesuit_Navigator_Backpack_Vibrant => Construct(0x6bc5);
+        public static FormLink<IArmorGetter> SFBGS003_Spacesuit_Navigator_SpaceSuit_Vibrant => Construct(0x6bc6);
+        public static FormLink<IArmorGetter> SFBGS003_Spacesuit_Ranger_Helmet_Vibrant => Construct(0x6bc7);
         public static FormLink<IArmorGetter> SFBGS003_Spacesuit_ETES_Backpack => Construct(0xf9ca);
     }
 }

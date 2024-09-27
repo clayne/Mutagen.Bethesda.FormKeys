@@ -70,5 +70,7 @@ public static partial class Starfield
         public static FormLink<ICollisionLayerGetter> L_AUDIO_OCCLUSION => Construct(0x141167);
         public static FormLink<ICollisionLayerGetter> L_PARTICLE_ONLY => Construct(0x202d3a);
         public static FormLink<ICollisionLayerGetter> L_PARTICLE_COLLIDER => Construct(0x202d3b);
+        public static FormLink<ICollisionLayerGetter> L_VEHICLECHASSIS => Construct(0x2eee7f);
+        public static FormLink<ICollisionLayerGetter> L_Camera_Only => Construct(0x2f0ad2);
     }
 }

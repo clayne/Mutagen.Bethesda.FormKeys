@@ -41,5 +41,6 @@ public static partial class SFBGS003
         public static FormLink<ILeveledItemGetter> LL_Spacesuit_ETES_Helmet_Quality_03 => Construct(0xff9b);
         public static FormLink<ILeveledItemGetter> LL_Spacesuit_ETES_Helmet_Quality_04 => Construct(0xff9c);
         public static FormLink<ILeveledItemGetter> LL_Weapon_PlasmaCutter => Construct(0xffd8);
+        public static FormLink<ILeveledItemGetter> SFBGS003_LL_Astras_Aspirational_Armor => Construct(0xffda);
     }
 }
