@@ -1344,6 +1344,7 @@ public static partial class Starfield
         public static FormLink<IActivatorGetter> Water16mCalmMossClumpy => Construct(0x30ed40);
         public static FormLink<IActivatorGetter> RI04_VentQTPrimitive => Construct(0x313200);
         public static FormLink<IActivatorGetter> RI04_VentExitQTPrimitive => Construct(0x313204);
+        public static FormLink<IActivatorGetter> Power_Klaxon_Red_Looping01 => Construct(0x319376);
         public static FormLink<IActivatorGetter> MissionMarkerSupplyNeed109 => Construct(0x31b4a6);
         public static FormLink<IActivatorGetter> NH_Display_NASA => Construct(0x328c57);
         public static FormLink<IActivatorGetter> LC107_LightPanel01 => Construct(0x329935);

@@ -418,6 +418,7 @@ public static partial class Starfield
         public static FormLink<IEffectSequenceGetter> CreatureFX_TerrormrophMelee_withTerrainImpacts1 => Construct(0x2efcac);
         public static FormLink<IEffectSequenceGetter> ShipFX_ExplosionBattery => Construct(0x309a6b);
         public static FormLink<IEffectSequenceGetter> TRP_Fire_Damage_01_FXSQ => Construct(0x30d11b);
+        public static FormLink<IEffectSequenceGetter> Power_Klaxon_Red_Looping_Seq01 => Construct(0x319377);
         public static FormLink<IEffectSequenceGetter> Power_Klaxon_Orange_Looping_Seq01 => Construct(0x31c39f);
         public static FormLink<IEffectSequenceGetter> VaultLightPanel01_SequenceA => Construct(0x32993d);
         public static FormLink<IEffectSequenceGetter> VaultDataCore01_SequenceA => Construct(0x329941);

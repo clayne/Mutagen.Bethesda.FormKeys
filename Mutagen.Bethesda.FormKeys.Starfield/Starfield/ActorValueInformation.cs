@@ -1034,6 +1034,8 @@ public static partial class Starfield
         public static FormLink<IActorValueInformationGetter> PEO_SneakAttackBonusMult => Construct(0x2edfe4);
         public static FormLink<IActorValueInformationGetter> PEO_CarryWeight => Construct(0x2ee0bb);
         public static FormLink<IActorValueInformationGetter> SpaceshipMaxAngularZVelocity => Construct(0x2f03e5);
+        public static FormLink<IActorValueInformationGetter> SFBGS001_AidVaruunPeople_AV => Construct(0x2f0feb);
+        public static FormLink<IActorValueInformationGetter> SFBGS001_COM_WantsToTalk_AVIF => Construct(0x2f102f);
         public static FormLink<IActorValueInformationGetter> AnimGraph_DirectAtPitchMax => Construct(0x2f4083);
         public static FormLink<IActorValueInformationGetter> AnimGraph_DirectAtPitchMin => Construct(0x2f4084);
         public static FormLink<IActorValueInformationGetter> MeleeModCount => Construct(0x2fb339);
@@ -1044,6 +1046,7 @@ public static partial class Starfield
         public static FormLink<IActorValueInformationGetter> PlayerFoodMagnitudeMult => Construct(0x3039b3);
         public static FormLink<IActorValueInformationGetter> SQ_PlanetLastSurveyReward => Construct(0x303c1f);
         public static FormLink<IActorValueInformationGetter> SpaceshipLanderRating => Construct(0x30b58a);
+        public static FormLink<IActorValueInformationGetter> LC088_Vigilance_TravelToTargetLinkValue => Construct(0x3192df);
         public static FormLink<IActorValueInformationGetter> COM_StarbornSaveActorValue_MaxStoryGate_Barret => Construct(0x31c39a);
         public static FormLink<IActorValueInformationGetter> COM_StarbornSaveActorValue_MaxStoryGate_Andreja => Construct(0x31c39b);
         public static FormLink<IActorValueInformationGetter> COM_StarbornSaveActorValue_MaxStoryGate_SamCoe => Construct(0x31c39c);

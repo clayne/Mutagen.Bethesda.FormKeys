@@ -748,6 +748,9 @@ public static partial class Starfield
         public static FormLink<IConditionRecordGetter> PEO_ENV_CND_ExtremeEnvironment_AtRisk => Construct(0x2edff5);
         public static FormLink<IConditionRecordGetter> PEO_SustenanceAllowed => Construct(0x2eea4d);
         public static FormLink<IConditionRecordGetter> RI07_NinaSceneConditionForm => Construct(0x2ef789);
+        public static FormLink<IConditionRecordGetter> SFBGS001_COM_CND_WantsToTalk_Placeholder01 => Construct(0x2f1027);
+        public static FormLink<IConditionRecordGetter> SFBGS001_COM_CND_WantsToTalk_Placeholder02 => Construct(0x2f1028);
+        public static FormLink<IConditionRecordGetter> SFBGS001_COM_CND_WantsToTalk_Placeholder03 => Construct(0x2f1029);
         public static FormLink<IConditionRecordGetter> AudioCondition_ProceduralStaticRandom => Construct(0x2f3788);
         public static FormLink<IConditionRecordGetter> COM_CND_DIAL_TopLevel_Wait_Disallowed_AndrejaQuest => Construct(0x2f8e79);
         public static FormLink<IConditionRecordGetter> PEO_ENV_CND_EnvironmentalDamageClearing_Setting_0 => Construct(0x2fa9ff);

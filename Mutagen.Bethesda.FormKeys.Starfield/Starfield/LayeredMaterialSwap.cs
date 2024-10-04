@@ -11379,6 +11379,12 @@ public static partial class Starfield
         public static FormLink<ILayeredMaterialSwapGetter> deskkit01paint01_To_paintedmetalplain01_white01_Swap => Construct(0x31833e);
         public static FormLink<ILayeredMaterialSwapGetter> shelfgenwallkitwood01_To_textilecanvas01_blue01_Swap => Construct(0x318486);
         public static FormLink<ILayeredMaterialSwapGetter> filingfolder01manila_To_filingfolder01blue_Swap => Construct(0x31867d);
+        public static FormLink<ILayeredMaterialSwapGetter> ChromaBlackSwap => Construct(0x318f28);
+        public static FormLink<ILayeredMaterialSwapGetter> genkit_color06_To_testchromakeyblack_Swap => Construct(0x318f29);
+        public static FormLink<ILayeredMaterialSwapGetter> genkit_color18_To_testchromakeyblack_Swap => Construct(0x318f2a);
+        public static FormLink<ILayeredMaterialSwapGetter> ChromaGreenSwap01 => Construct(0x318f48);
+        public static FormLink<ILayeredMaterialSwapGetter> genkit_color06_To_testchromakeygreen_Swap => Construct(0x318f49);
+        public static FormLink<ILayeredMaterialSwapGetter> genkit_color18_To_testchromakeygreen_Swap => Construct(0x318f4a);
         public static FormLink<ILayeredMaterialSwapGetter> textilefabricpanel01_To_aktextilefabricpanel01_alt01_Swap => Construct(0x319a5a);
         public static FormLink<ILayeredMaterialSwapGetter> textilefabricpanel01_To_aktextilefabricpanel01_alt02_Swap => Construct(0x319a5c);
         public static FormLink<ILayeredMaterialSwapGetter> textilefabricpanel01_To_aktextilefabricpanel01_alt03_Swap => Construct(0x319a5d);

@@ -742,6 +742,7 @@ public static partial class Starfield
         public static FormLink<IFactionGetter> SQ_Captive_GenericDialogueFaction => Construct(0x2e0866);
         public static FormLink<IFactionGetter> MQ101PirateShipFaction => Construct(0x2edec9);
         public static FormLink<IFactionGetter> FC03_OutlawShipFaction => Construct(0x2f062d);
+        public static FormLink<IFactionGetter> SFBGS001_VaruunBECrewFaction => Construct(0x2f1009);
         public static FormLink<IFactionGetter> MQHunterCrimeFaction => Construct(0x2f17e9);
         public static FormLink<IFactionGetter> BE_KT02_PartyCruiseFaction => Construct(0x2f25a7);
         public static FormLink<IFactionGetter> MS03_RyujinFaction => Construct(0x2f293b);

@@ -867,6 +867,9 @@ public static partial class Starfield
         public static FormLink<IIdleAnimationGetter> _1stPerson_Furniture_ShipImpactHeavy => Construct(0x20d55b);
         public static FormLink<IIdleAnimationGetter> _1stPerson_Furniture_ShipImpactLight => Construct(0x20d55c);
         public static FormLink<IIdleAnimationGetter> _1stPerson_Furniture_SpaceshipDamageHeavy => Construct(0x20d55d);
+        public static FormLink<IIdleAnimationGetter> Human_TunnelRoot => Construct(0x20e77c);
+        public static FormLink<IIdleAnimationGetter> Human_TunnelStart => Construct(0x20e77d);
+        public static FormLink<IIdleAnimationGetter> Human_TunnelStop => Construct(0x20e77e);
         public static FormLink<IIdleAnimationGetter> MQ204A_030_PlayReaction01 => Construct(0x210372);
         public static FormLink<IIdleAnimationGetter> MQ204A_030_PlayReaction02 => Construct(0x210373);
         public static FormLink<IIdleAnimationGetter> MQ204A_030_PlayReaction03 => Construct(0x210374);
@@ -1086,6 +1089,7 @@ public static partial class Starfield
         public static FormLink<IIdleAnimationGetter> ModelA_Death_MovingForward => Construct(0x2e13cb);
         public static FormLink<IIdleAnimationGetter> ShipTakeOffRegular => Construct(0x2e3e4b);
         public static FormLink<IIdleAnimationGetter> ShipTakeOffVertical => Construct(0x2e3e4c);
+        public static FormLink<IIdleAnimationGetter> Furniture_SinglePlayActivateInstantGeneric => Construct(0x2ee039);
         public static FormLink<IIdleAnimationGetter> Human_Root_ChangeAnimFlavor_TechReader2handsBulky => Construct(0x2f0463);
         public static FormLink<IIdleAnimationGetter> Human_Root_ChangeAnimFlavor_Surrender => Construct(0x2f0925);
         public static FormLink<IIdleAnimationGetter> Human_Root_ChangeAnimFlavor_HandCuffed => Construct(0x2f0974);

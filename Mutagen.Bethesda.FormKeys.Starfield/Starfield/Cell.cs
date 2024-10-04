@@ -1231,6 +1231,7 @@ public static partial class Starfield
         public static FormLink<ICellGetter> PackInPITreesYuccaRocksLayeredXLarge01StorageCell => Construct(0x2c9926);
         public static FormLink<ICellGetter> PackInClutterPIShpGenConsoleFore01StorageCell => Construct(0x302492);
         public static FormLink<ICellGetter> PackInShipPISMODDockerDeimos100DPSlimTopStorageCell => Construct(0x315fce);
+        public static FormLink<ICellGetter> WarehouseChromaKeyInt01 => Construct(0x318f12);
         public static FormLink<ICellGetter> PackInShipPISMODStructDeimosSpineCAftStorageCell => Construct(0x32b3a6);
         public static FormLink<ICellGetter> PackInIndShelfMed02StorageCell => Construct(0x32eaba);
         public static FormLink<ICellGetter> PackInClutterPIFoodMess04StorageCell => Construct(0x332bf6);
@@ -11872,6 +11873,7 @@ public static partial class Starfield
         public static FormLink<ICellGetter> PackInSCOLBuildingBase01SCOLStorageCell => Construct(0x2f4391);
         public static FormLink<ICellGetter> PackInClutterPIShpGenConsoleFore02StorageCell => Construct(0x302491);
         public static FormLink<ICellGetter> PackInLC043SY03CeilingLightBoxA02StorageCell => Construct(0x302559);
+        public static FormLink<ICellGetter> WarehouseChromaKeyInt02 => Construct(0x318f11);
         public static FormLink<ICellGetter> PackInShipPISMODStructDeimosSpineDAftStorageCell => Construct(0x32b3a5);
         public static FormLink<ICellGetter> PackInIndShelfSml01StorageCell => Construct(0x32eab9);
         public static FormLink<ICellGetter> PackInPIAKSignTheStretchStorageCell => Construct(0x3335b9);

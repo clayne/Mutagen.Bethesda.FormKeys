@@ -3401,6 +3401,8 @@ public static partial class Starfield
         public static FormLink<IPackageGetter> LC088_Key_VossSit => Construct(0x315943);
         public static FormLink<IPackageGetter> LC088_Key_VossEnd => Construct(0x315944);
         public static FormLink<IPackageGetter> LC044_MasakoLostOfficeSitPKG => Construct(0x316685);
+        public static FormLink<IPackageGetter> City_Akila_Ashta03_DefaultSitLinkedRef => Construct(0x318f4f);
+        public static FormLink<IPackageGetter> LC082VigilanceTravelToTravelTargetLink02 => Construct(0x3192de);
         public static FormLink<IPackageGetter> MQ206A_SonaSitPkg => Construct(0x31b4d5);
         public static FormLink<IPackageGetter> MQ101VascoStayLodgeScenePkg01 => Construct(0x31b4d8);
         public static FormLink<IPackageGetter> RQ_OE_TransportPerson02_QuestGiver_StartQuest_ForceGreet => Construct(0x31c0bd);

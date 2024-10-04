@@ -5371,7 +5371,7 @@ public static partial class Starfield
         public static FormLink<INpcGetter> FC_Neon_RT_DaltonFiennes => Construct(0x295ede);
         public static FormLink<INpcGetter> FC_Neon_RT_GenevieveMonohan => Construct(0x295ee3);
         public static FormLink<INpcGetter> UC05_IntercomVoice_AUDIOONLY_NoAppearanceData => Construct(0x297dcd);
-        public static FormLink<INpcGetter> LvlRobotModelS_Melee_Varuun => Construct(0x297dd7);
+        public static FormLink<INpcGetter> UC05_LvlRobotModelS_Melee_VaruunEmbassy => Construct(0x297dd7);
         public static FormLink<INpcGetter> LvlRobotModelS_Varuun => Construct(0x297dd8);
         public static FormLink<INpcGetter> FC01_JedBullock => Construct(0x2982af);
         public static FormLink<INpcGetter> POI033_TestPilot => Construct(0x298ae3);
@@ -6177,6 +6177,13 @@ public static partial class Starfield
         public static FormLink<INpcGetter> EncCitizenFaceM02_13 => Construct(0x2efca2);
         public static FormLink<INpcGetter> EncCitizenFaceM02_14 => Construct(0x2efca3);
         public static FormLink<INpcGetter> EncCitizenFaceM02_15 => Construct(0x2efca4);
+        public static FormLink<INpcGetter> SFBGS001_LvlVaruun_BECrew_Crew => Construct(0x2f1008);
+        public static FormLink<INpcGetter> SFBGS001_LvlVaruun_BECrew_Assault => Construct(0x2f100a);
+        public static FormLink<INpcGetter> SFBGS001_LvlVaruun_BECrew_Charger => Construct(0x2f100b);
+        public static FormLink<INpcGetter> SFBGS001_LvlVaruun_BECrew_Heavy => Construct(0x2f100c);
+        public static FormLink<INpcGetter> SFBGS001_LvlVaruun_BECrew_Sniper => Construct(0x2f100d);
+        public static FormLink<INpcGetter> SFBGS001_LvlVaruun_BECrew_Captain => Construct(0x2f100e);
+        public static FormLink<INpcGetter> SFBGS001_LvlVaruunRobotModelA_BECrew => Construct(0x2f100f);
         public static FormLink<INpcGetter> SQ_GroupVoice_F01_African_NoAppearanceData => Construct(0x2f37c0);
         public static FormLink<INpcGetter> SQ_GroupVoice_F02_British_NoAppearanceData => Construct(0x2f37c1);
         public static FormLink<INpcGetter> SQ_GroupVoice_F03_EastAsian_NoAppearanceData => Construct(0x2f37c2);

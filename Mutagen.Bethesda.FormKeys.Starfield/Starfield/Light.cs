@@ -1503,6 +1503,8 @@ public static partial class Starfield
         public static FormLink<ILightGetter> LGT_ShipInterior_Omni_NS_Cool_004_1k => Construct(0x30c875);
         public static FormLink<ILightGetter> LGT_ShipInterior_Spot_SS_Cool_005_25k => Construct(0x30c876);
         public static FormLink<ILightGetter> LGT_Exterior_NeonChunck_Spot_SS_Warm_003_75k => Construct(0x30d5f9);
+        public static FormLink<ILightGetter> LGT_Interior_Omni_NS_Green04_50k => Construct(0x3193a5);
+        public static FormLink<ILightGetter> LGT_Interior_Omni_NS_Green04_15k => Construct(0x3194c1);
         public static FormLink<ILightGetter> Power_Klaxon_Light01 => Construct(0x31c3a0);
         public static FormLink<ILightGetter> LGT_Interior_Omni_NS_Neutral_8k => Construct(0x3250f9);
         public static FormLink<ILightGetter> LGT_Interior_Spot_NS_Neutral_5k => Construct(0x325c8d);

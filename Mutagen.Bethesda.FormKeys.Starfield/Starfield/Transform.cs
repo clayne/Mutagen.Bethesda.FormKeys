@@ -708,6 +708,7 @@ public static partial class Starfield
         public static FormLink<ITransformGetter> Inv_DefaultTransform_Z110_HookahCable => Construct(0x2f1452);
         public static FormLink<ITransformGetter> Inv_DefaultTransform_Z070_Meds_MedPacks => Construct(0x2f1453);
         public static FormLink<ITransformGetter> Inv_DefaultTransform_Z070_Meds_MedPacks_NOCLUTTER_ResearchUI => Construct(0x2f1454);
+        public static FormLink<ITransformGetter> Inv_Melee_Inventory_03 => Construct(0x318efb);
         public static FormLink<ITransformGetter> ShipTF_SMOD_Hab_1x1x1 => Construct(0x39ec83);
         public static FormLink<ITransformGetter> ShipTF_SMOD_Hab_2x1x1 => Construct(0x39ec84);
         public static FormLink<ITransformGetter> ShipTF_SMOD_Hab_2x2x1 => Construct(0x39ec85);

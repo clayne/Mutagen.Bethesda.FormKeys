@@ -234,6 +234,10 @@ public static partial class Starfield
         public static FormLink<IMaterialTypeGetter> MaterialPHYPlasticBottleSmall => Construct(0x2bca89);
         public static FormLink<IMaterialTypeGetter> MaterialMatStairs => Construct(0x2c4442);
         public static FormLink<IMaterialTypeGetter> MaterialPHYMetalStepladder => Construct(0x2ccf9b);
+        public static FormLink<IMaterialTypeGetter> SFBGS001_MaterialActorCreatureVortexPhantom => Construct(0x2ee4ea);
+        public static FormLink<IMaterialTypeGetter> SFBGS001_MaterialActorCreatureVortexParasite => Construct(0x2ee4f1);
+        public static FormLink<IMaterialTypeGetter> SFBGS001_MaterialActorCreatureVortexHorror => Construct(0x2ee508);
+        public static FormLink<IMaterialTypeGetter> SFBGS001_MaterialModulatorTarget => Construct(0x2efd87);
         public static FormLink<IMaterialTypeGetter> Material_Dirt_NoTunnel => Construct(0x2f063b);
         public static FormLink<IMaterialTypeGetter> MaterialDirtlSand_Gray => Construct(0x2f09e5);
         public static FormLink<IMaterialTypeGetter> MaterialDirtlSand_Red => Construct(0x2f0a47);
@@ -245,6 +249,7 @@ public static partial class Starfield
         public static FormLink<IMaterialTypeGetter> Material_Dirt_Gray => Construct(0x2f0b75);
         public static FormLink<IMaterialTypeGetter> MaterialDirtGravel_Red => Construct(0x2f0fdb);
         public static FormLink<IMaterialTypeGetter> MaterialDirtGravel_Gray => Construct(0x2f0fdc);
+        public static FormLink<IMaterialTypeGetter> SFBGS001_MaterialActorCreatureVortexPhantom_PainBladeBlock => Construct(0x2f1032);
         public static FormLink<IMaterialTypeGetter> MaterialStoneRough => Construct(0x2f4137);
         public static FormLink<IMaterialTypeGetter> MaterialShipStarStation => Construct(0x2f6aef);
         public static FormLink<IMaterialTypeGetter> MaterialAsteroidALarge => Construct(0x2f6af0);

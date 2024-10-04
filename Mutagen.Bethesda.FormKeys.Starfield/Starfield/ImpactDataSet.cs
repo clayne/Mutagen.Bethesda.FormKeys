@@ -272,6 +272,7 @@ public static partial class Starfield
         public static FormLink<IImpactDataSetGetter> FX_ShipExplosionDamageImpactSet => Construct(0x2d6bcd);
         public static FormLink<IImpactDataSetGetter> FXTerrormorphMeleeImpactSet => Construct(0x2efcb7);
         public static FormLink<IImpactDataSetGetter> FXTerrormorphMeleePowerImpactSet => Construct(0x2efcb8);
+        public static FormLink<IImpactDataSetGetter> SFBGS001_WPNHand_NPC_VortexPhantom_Painblade_ImpactSet => Construct(0x2f1030);
         public static FormLink<IImpactDataSetGetter> FXProjectileBulletMagImpactSet => Construct(0x34be5d);
         public static FormLink<IImpactDataSetGetter> FXProjectileRocketImpactSet => Construct(0x3a5907);
         public static FormLink<IImpactDataSetGetter> FXProjectileImpactEon => Construct(0x3ad4b4);

@@ -41,6 +41,7 @@ public static partial class Starfield
         public static FormLink<IStaticGetter> WaterCurrentZoneMarker => Construct(0xc4);
         public static FormLink<IStaticGetter> LightBox => Construct(0x1f7);
         public static FormLink<IStaticGetter> NavMeshSeedMarker => Construct(0x1f8);
+        public static FormLink<IStaticGetter> NavMeshAntiseedMarker => Construct(0x1fa);
         public static FormLink<IStaticGetter> NavMeshGenExclusionVolume => Construct(0x1fc);
         public static FormLink<IStaticGetter> ExitSign01_A => Construct(0x85b);
         public static FormLink<IStaticGetter> ExitSign01_B => Construct(0x85c);

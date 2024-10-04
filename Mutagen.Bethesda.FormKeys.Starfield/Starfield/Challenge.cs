@@ -13,5 +13,10 @@ public static partial class Starfield
         public static FormLink<IChallengeGetter> Replicator_Achievement => Construct(0xc6e6);
         public static FormLink<IChallengeGetter> Kill_Starborn_Achievement => Construct(0x137cd9);
         public static FormLink<IChallengeGetter> Industrialist_Achievement => Construct(0x246175);
+        public static FormLink<IChallengeGetter> SFBGS001_Kill_Horrors_Achievement_New => Construct(0x2f0fe5);
+        public static FormLink<IChallengeGetter> SFBGS001_Kill_Redeemed_Achievement_New => Construct(0x2f0fe6);
+        public static FormLink<IChallengeGetter> SFBGS001_AidVaruunPeople_Achievement => Construct(0x2f0fea);
+        public static FormLink<IChallengeGetter> SFBGS001_Craft_VortexGrenades_Achievement_New => Construct(0x2f0fec);
+        public static FormLink<IChallengeGetter> SFBGS001_LocationsDiscovered_Achievement => Construct(0x31978e);
     }
 }

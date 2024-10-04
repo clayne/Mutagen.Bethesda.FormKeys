@@ -65,5 +65,6 @@ public static partial class SFBGS003
         public static FormLink<IKeywordGetter> SFBGS003_IndKit_Swap_Keyword => Construct(0xf9b8);
         public static FormLink<IKeywordGetter> SFBGS003_NeonExt_Swap_Keyword => Construct(0xf9bb);
         public static FormLink<IKeywordGetter> AVM_Cutter_SFBGS003_Cutter_TrackersAlliance => Construct(0xfd31);
+        public static FormLink<IKeywordGetter> MissionStoryKeywordBountySpace_TA => Construct(0xffdc);
     }
 }

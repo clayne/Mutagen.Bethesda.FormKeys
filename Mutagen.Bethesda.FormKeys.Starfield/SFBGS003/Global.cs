@@ -97,5 +97,6 @@ public static partial class SFBGS003
         public static FormLink<IGlobalGetter> SFBGS003_NPCDemandMoney_LargeCOPY0006 => Construct(0xf721);
         public static FormLink<IGlobalGetter> SFBGS003_NPCDemandMoney_SmallCOPY0006 => Construct(0xf722);
         public static FormLink<IGlobalGetter> SFBGS003_CreditsRewardBountyQuestSmall => Construct(0xfd3b);
+        public static FormLink<IGlobalGetter> MB_MissionsCompleted20Bounty_TA => Construct(0xffdd);
     }
 }

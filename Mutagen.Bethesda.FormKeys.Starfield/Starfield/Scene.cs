@@ -194,6 +194,7 @@ public static partial class Starfield
         public static FormLink<ISceneGetter> COM_SarahMorgan_Story_SG05_QuestIntro => Construct(0x2c7c1f);
         public static FormLink<ISceneGetter> COM_SarahMorgan_System_AngerScene => Construct(0x2c8e57);
         public static FormLink<ISceneGetter> COM_SarahMorgan_System_RomanceSceneBackup => Construct(0x2fb45c);
+        public static FormLink<ISceneGetter> COM_SarahMorgan_System_RomanceSceneTeleport => Construct(0x318f0c);
         public static FormLink<ISceneGetter> COM_SarahMorgan_TopLevel_Personal => Construct(0x333d8a);
         public static FormLink<ISceneGetter> DialogueCFTheKey_RandomIdles_Scene04 => Construct(0x226379);
         public static FormLink<ISceneGetter> SQ_Followers_CompanionAndCrew_Trade => Construct(0x3e94bb);

@@ -1496,6 +1496,7 @@ public static partial class Starfield
         public static FormLink<IGlobalGetter> UC05_HadrianSandboxing_PostUC05 => Construct(0x20b7c0);
         public static FormLink<IGlobalGetter> UC_PlayerKnows_KaiserIsARobot => Construct(0x20b7d9);
         public static FormLink<IGlobalGetter> UC04_JakobSandboxing_PostUC03 => Construct(0x20b7dc);
+        public static FormLink<IGlobalGetter> _UpdateShatteredSpaceMaster => Construct(0x20c81d);
         public static FormLink<IGlobalGetter> Update1Point9 => Construct(0x20c81e);
         public static FormLink<IGlobalGetter> StarfieldUpdate3 => Construct(0x20d228);
         public static FormLink<IGlobalGetter> _UpdateSFBGS004 => Construct(0x20d240);
@@ -2407,6 +2408,9 @@ public static partial class Starfield
         public static FormLink<IGlobalGetter> PEO_Sus_Mag_Tier_1_ConsumePotion => Construct(0x2efd77);
         public static FormLink<IGlobalGetter> PEO_Sus_Mag_Tier_2_ConsumePotion => Construct(0x2efd78);
         public static FormLink<IGlobalGetter> PEO_Sus_Mag_Tier_3_ConsumePotion => Construct(0x2efd79);
+        public static FormLink<IGlobalGetter> COM_Andreja_Update01 => Construct(0x2f0273);
+        public static FormLink<IGlobalGetter> COM_Andreja_Update02 => Construct(0x2f0274);
+        public static FormLink<IGlobalGetter> COM_Andreja_Update03 => Construct(0x2f0277);
         public static FormLink<IGlobalGetter> PEO_Sus_Consume_Dur_ALL => Construct(0x2f0ad4);
         public static FormLink<IGlobalGetter> LL_ChanceNone_Contraband => Construct(0x2f29ed);
         public static FormLink<IGlobalGetter> SQ_Group_RandomOccupationIndexOverride => Construct(0x2f37dc);
@@ -2480,6 +2484,7 @@ public static partial class Starfield
         public static FormLink<IGlobalGetter> _StarfieldUpdate4 => Construct(0x315ea5);
         public static FormLink<IGlobalGetter> PEO_ShipDamageOutput_GV_OBSOLETE => Construct(0x3162e7);
         public static FormLink<IGlobalGetter> PEO_CombatAfflictions_GV => Construct(0x317ea6);
+        public static FormLink<IGlobalGetter> SFBGS001_MB_Global => Construct(0x318f10);
         public static FormLink<IGlobalGetter> ShipServicesRepairCost => Construct(0x31a186);
         public static FormLink<IGlobalGetter> UC09_HeatleechHelloCooldown => Construct(0x31dce4);
         public static FormLink<IGlobalGetter> UCR04_SamplesHarvestedCOPY0000 => Construct(0x31f9d8);
