@@ -28,4 +28,4 @@ This project contains packages of mappings for all base games.  You can create s
 Mutagen.Bethesda.FormKeys.Generator.exe generate -g SkyrimSE -p path/To/Your/Mod.esp
 ```
 
-This should output a `.cs` file of all the located EDID -> FormKey mappings found in that mod.  You can then add that class to any project you wish to access the custom mappings from.
+This should output a `.cs` file of all the located EDID -> FormKey mappings found in that mod.  You can then add the resulting `Output/` folder to any project you wish to access the custom mappings from.
